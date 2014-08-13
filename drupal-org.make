@@ -57,6 +57,9 @@ projects[geophp][subdir] = "contrib"
 projects[helper][version] = "1.1"
 projects[helper][subdir] = "contrib"
 
+projects[job_scheduler][version] = "2.0-alpha3"
+projects[job_scheduler][subdir] = "contrib"
+
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
