@@ -9,6 +9,6 @@
  * Preprocess the install page variables to add our logo.
  */
 function mcm_lostseal_process_maintenance_page(&$variables) {
-  $variables['logo'] = drupal_get_path('profile', 'mcm_lostseal') . '/logo.png';
+  $variables['logo'] = drupal_get_path('profile', 'mcm_lostseal') . '/logo.jpg';
 }
 
