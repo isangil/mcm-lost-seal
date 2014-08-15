@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the lostseal_article feature.
+ */
+
+include_once 'lostseal_article.features.inc';
