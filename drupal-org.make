@@ -87,6 +87,12 @@ projects[pathauto_persist][subdir] = "contrib"
 projects[print][version] = "2.x-dev"
 projects[print][subdir] = "contrib"
 
+projects[seach_api_db][version] = "1.4"
+projects[strongarm][subdir] = "contrib"
+
+projects[search_api][version] = "1.13"
+projects[strongarm][subdir] = "contrib"
+
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
