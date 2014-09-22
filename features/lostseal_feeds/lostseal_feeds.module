@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the lostseal_feeds feature.
+ */
+
+include_once 'lostseal_feeds.features.inc';
