@@ -14,21 +14,14 @@ function lostseal_article_ctools_plugin_api($module = NULL, $api = NULL) {
 }
 
 /**
- * Implements hook_views_api().
- */
-function lostseal_article_views_api($module = NULL, $api = NULL) {
-  return array("api" => "3.0");
-}
-
-/**
  * Implements hook_node_info().
  */
 function lostseal_article_node_info() {
   $items = array(
     'article' => array(
-      'name' => t('Article'),
+      'name' => t('Art'),
       'base' => 'node_content',
-      'description' => t('Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'),
+      'description' => t('<em>Lost Seal Art</em> contributed by school children.  Use this to capture each art piece, and to document appropriately, including the name of the student, school, and country where this piece was originated. Please, write down a title for the art piece, and if possible, the description as provided by the student.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
