@@ -1,10 +1,12 @@
 name = lostseal_views
 core = 7.x
-package = Features
+package = Lost Seal Features
 dependencies[] = views
+dependencies[] = views_slideshow
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[views_view][] = browse_by_country
+features[views_view][] = cycling_gallery
 features[views_view][] = home_front_page
 features[views_view][] = vignettes
 features_exclude[dependencies][ctools] = ctools

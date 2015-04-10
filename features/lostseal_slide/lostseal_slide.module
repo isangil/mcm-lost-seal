@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Lost Seal Slide feature.
+ */
+
+include_once 'lostseal_slide.features.inc';

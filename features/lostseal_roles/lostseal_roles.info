@@ -1,0 +1,8 @@
+name = Lost Seal Roles
+description = Roles for the Lost Seal Site
+core = 7.x
+package = Lost Seal Features
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = administrator
+features[user_role][] = editor
