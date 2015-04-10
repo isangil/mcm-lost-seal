@@ -5,13 +5,13 @@ core = "7.x"
 ; Contributed modules
 ; -----------------------------------------------------------------------------
 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
-projects[ds][version] = "2.6"
+projects[ds][version] = "2.7"
 projects[ds][subdir] = "contrib"
 
 projects[entity][version] = "1.5"
@@ -72,10 +72,13 @@ projects[link][subdir] = "contrib"
 projects[media][version] = "2.x-dev"
 projects[media][subdir] = "contrib"
 
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
 projects[name][version] = "1.9"
+projects[name][subdir] = "contrib"
+
+projects[noggin][version] = "1.1"
 projects[name][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
@@ -118,7 +121,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.x"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
 
 projects[views_content_cache][version] = "3.0-alpha3"
