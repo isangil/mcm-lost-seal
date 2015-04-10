@@ -8,13 +8,19 @@ core = "7.x"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
+projects[ckeditor][version] = "1.16"
+projects[ckeditor][subdir] = "contrib"
+
+projects[context][version] = "3.6"
+projects[context][subdir] = "contrib"
+
 projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
 projects[ds][version] = "2.7"
 projects[ds][subdir] = "contrib"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.1"
