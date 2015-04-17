@@ -17,7 +17,7 @@ projects[context][subdir] = "contrib"
 projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.8"
 projects[ds][subdir] = "contrib"
 
 projects[entity][version] = "1.6"
@@ -25,6 +25,9 @@ projects[entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
+
+projects[facetapi][version] = "1.5"
+projects[facetapi][subdir] = "contrib"
 
 projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
@@ -51,8 +54,11 @@ projects[filefield_sources][patch][] = "http://drupal.org/files/2006436-file-att
 ; @see https://drupal.org/node/2033269
 projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-realpath.patch"
 
-projects[flexslider][version] = "2.0-alpha1"
+projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
+
+projects[flexslider_views_slideshow][version] = "2.x-dev"
+projects[flexslider_views_slideshow][subdir] = "contrib"
 
 projects[geofield][version] = "1.2"
 projects[geofield][subdir] = "contrib"
@@ -63,26 +69,26 @@ projects[geophp][subdir] = "contrib"
 projects[helper][version] = "1.1"
 projects[helper][subdir] = "contrib"
 
+projects[i18n][version] = "1.12"
+projects[i18n_update][subdir] = "contrib"
+
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
 
-projects[libraries][version] = "2.1"
+projects[l10n_update][version] = "1.1"
+projects[l10n_update][subdir] = "contrib"
+
+projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[lingotek][version] = "5.10"
+projects[lingotek][version] = "6.02"
 projects[lingotek][subdir] = "contrib"
-
-projects[link][version] = "1.1"
-projects[link][subdir] = "contrib"
 
 projects[media][version] = "2.x-dev"
 projects[media][subdir] = "contrib"
 
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
-
-projects[name][version] = "1.9"
-projects[name][subdir] = "contrib"
 
 projects[noggin][version] = "1.1"
 projects[name][subdir] = "contrib"
@@ -93,14 +99,20 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto_persist][version] = "1.3"
 projects[pathauto_persist][subdir] = "contrib"
 
-projects[print][version] = "2.x-dev"
-projects[print][subdir] = "contrib"
+projects[plupload][version] = "1.7"
+projects[plupload][subdir] = "contrib"
+
+projects[potx][version] = "1.0"
+projects[potx][subdir] = "contrib"
 
 projects[seach_api_db][version] = "1.4"
 projects[strongarm][subdir] = "contrib"
 
-projects[search_api][version] = "1.13"
+projects[search_api][version] = "1.14"
 projects[strongarm][subdir] = "contrib"
+
+projects[shs][version] = "1.6"
+projects[shs][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
@@ -114,24 +126,23 @@ projects[term_reference_tree][subdir] = "contrib"
 ; @see https://drupal.org/node/2007164
 projects[term_reference_tree][patch][] = "http://drupal.org/files/2007164-filter.patch"
 
-projects[token][version] = "1.5"
+projects[title][version] = "1.0-alpha7"
+projects[title][subdir] = "contrib"
+
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
-projects[token_field][version] = "1.x-dev"
-projects[token_field][subdir] = "contrib"
-
-projects[token_formatters][version] = "1.2"
-projects[token_formatters][subdir] = "contrib"
-
-; @todo Change this to 1.1 once that version is released.
-projects[url][version] = "1.x"
-projects[url][subdir] = "contrib"
+projects[token_filter][version] = "1.1"
+projects[token_filter][subdir] = "contrib"
 
 projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
+
+projects[views_slideshow][version] = "3.1"
+projects[views_slideshow][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
